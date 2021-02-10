@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     #Costum apps
     'questions',
+    #Third part apps
+    "graphene_django",
 ]
 
 MIDDLEWARE = [

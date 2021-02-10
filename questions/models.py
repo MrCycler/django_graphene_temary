@@ -21,7 +21,7 @@ class Question(models.Model):
         return "Pregunta: ("+str(self.id)+") "
 
 #*Opciones de pregunta:
-class QuestionOptions(models.Model):
+class QuestionOption(models.Model):
     #*Las opciones pertenecen a una pregunta
     question = models.ForeignKey(Question,verbose_name='pregunta', related_name='options', on_delete=models.CASCADE,null=True, blank=True)
     #*Enunciado

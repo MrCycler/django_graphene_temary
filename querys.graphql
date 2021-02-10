@@ -1,0 +1,31 @@
+query {
+  allQuestions {
+    id
+    description
+    image
+    score
+    isExample
+    createdAt
+    modifiedAt
+  }
+}
+
+query {
+  questionById(id: "1") {
+    id
+    description
+    image
+    score
+    isExample
+    createdAt
+    modifiedAt
+    questionOptions {
+      id
+      text
+      image
+      is_correct
+      created_at
+      modified_at
+    }
+  }
+}

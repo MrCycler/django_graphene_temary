@@ -11,7 +11,7 @@
     }
   },
   {
-    "model": "questions.questionoptions",
+    "model": "questions.questionoption",
     "fields": {
       "question": 1,
       "text": "Un framework",
@@ -21,7 +21,7 @@
     }
   },
   {
-    "model": "questions.questionoptions",
+    "model": "questions.questionoption",
     "fields": {
       "question": 1,
       "text": "Una librería",
@@ -42,7 +42,7 @@
     }
   },
   {
-    "model": "questions.questionoptions",
+    "model": "questions.questionoption",
     "fields": {
       "question": 2,
       "text": "Un framework",
@@ -52,7 +52,7 @@
     }
   },
   {
-    "model": "questions.questionoptions",
+    "model": "questions.questionoption",
     "fields": {
       "question": 2,
       "text": "Una librería",
