@@ -1,0 +1,64 @@
+[
+  {
+    "model": "questions.question",
+    "pk": 1,
+    "fields": {
+      "description": "¿Qué es ReactJS?",
+      "score": 1,
+      "is_example": false,
+      "created_at": "2020-12-10T13:40:26.931199-05:00",
+      "modified_at": "2020-12-10T13:40:26.931199-05:00"
+    }
+  },
+  {
+    "model": "questions.questionoptions",
+    "fields": {
+      "question": 1,
+      "text": "Un framework",
+      "is_correct": false,
+      "created_at": "2020-12-10T13:40:26.931199-05:00",
+      "modified_at": "2020-12-10T13:40:26.931199-05:00"
+    }
+  },
+  {
+    "model": "questions.questionoptions",
+    "fields": {
+      "question": 1,
+      "text": "Una librería",
+      "is_correct": true,
+      "created_at": "2020-12-10T13:40:26.931199-05:00",
+      "modified_at": "2020-12-10T13:40:26.931199-05:00"
+    }
+  },
+  {
+    "model": "questions.question",
+    "pk": 2,
+    "fields": {
+      "description": "¿Qué es Angular?",
+      "score": 1,
+      "is_example": false,
+      "created_at": "2020-12-10T13:40:26.931199-05:00",
+      "modified_at": "2020-12-10T13:40:26.931199-05:00"
+    }
+  },
+  {
+    "model": "questions.questionoptions",
+    "fields": {
+      "question": 2,
+      "text": "Un framework",
+      "is_correct": true,
+      "created_at": "2020-12-10T13:40:26.931199-05:00",
+      "modified_at": "2020-12-10T13:40:26.931199-05:00"
+    }
+  },
+  {
+    "model": "questions.questionoptions",
+    "fields": {
+      "question": 2,
+      "text": "Una librería",
+      "is_correct": false,
+      "created_at": "2020-12-10T13:40:26.931199-05:00",
+      "modified_at": "2020-12-10T13:40:26.931199-05:00"
+    }
+  }
+]
